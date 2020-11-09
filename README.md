@@ -9,6 +9,14 @@ Inspired by https://github.com/getong/rabbitmq-action, @getong Thanks!
 
 See [action.yml](action.yml)
 
+Basic:
+```yaml
+    - name: Start Bitname Kafka
+      uses: bbcCorp/kafka-actions@v1
+```
+
+Now you should be able to publish to Kafka broker running at `localhost:9092` 
+
 
 ---------
 ## License
